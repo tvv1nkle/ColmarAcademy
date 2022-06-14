@@ -1,0 +1,258 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Avenir Next LT Pro', sans-serif;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.logo {
+  display: flex;
+  align-items: left;
+}
+
+.logo h1 {
+  font-weight: 400;
+  height: 32px;
+  width: auto;
+  padding-top: 16px;
+}
+
+.logo h1 span {
+  color: rgb(166, 160, 160)
+}
+
+.navbar ul {
+  padding-right: 24px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  align-items: right;
+  padding-to p: 16px;
+  padding-right: 16px;
+}
+.logo img {
+  padding-left:24px ;
+  padding-top: auto;
+}
+
+#banner-container {
+
+  display: flex;
+  align-items: center;
+  padding: 32px 24px;
+  background-color: #d7d7d7;
+}
+
+#banner-container img {
+  width: 60%;
+}
+
+#banner-container #banner-text {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+#banner-container #banner-text h1 {
+  margin-top: 24px;
+  color: #4a4a4a;
+}
+
+#banner-container #banner-text p {
+  color: #4a4a4a;
+  margin-top: 24px;
+}
+
+#banner-container #banner-text button {
+  color: white;
+  background-color: #4a4a4a;
+  border: unset;
+  padding: 8px 0px;
+  margin-top: 24px;
+}
+
+
+
+
+
+#information {
+  display: flex;
+  padding: 2rem 0 0 1.5rem;
+}
+
+.informationmain {
+  width: 60%;
+  padding-right: 1.5rem;
+  border-right: 1px solid #cfcfcf;
+}
+
+.informationmain img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.informationmain h2 {
+  display: inline;
+  font-size: 1.3rem;
+}
+
+.maincontent {
+  padding-top: 0.5rem;
+  display: inline-block;
+}
+
+.maincredit {
+  padding-bottom: 20px;
+  font-size: 0.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgwrap {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.imgwrap img {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-content {
+  padding: 0 1rem;
+}
+
+.info-content p {
+  font-size: 0.9rem;
+}
+
+.info-content h4 {
+  display: inline;
+}
+
+.lecture {
+  display: flex;
+  background-color: #cfcfcf;
+  padding: 1rem 0 1rem 1.5rem;
+}
+
+.imgcontent {
+  max-width: 35%;
+}
+
+#imgcontent {
+  max-width: 100%;
+}
+
+.lecture img {
+  max-width: 100%;
+  height: auto;
+}
+
+#Course h1{
+  text-align: center;
+  padding: 32px;
+
+}
+.Startlearning {
+    display: inline-flex;
+    height: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.learning img {
+    height: auto;
+    width: 400px;
+}
+
+.learning p {
+  width: 400px;
+  padding-top: 0px;
+  padding-bottom: 24px;
+}
+
+.learning h3 {
+  padding-top: 13px;
+}
+
+.learning h4 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
+
+
+h3 {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 32px;
+}
+
+#thesis {
+  display: flex;
+  padding: 2rem 0 0 1.5rem;
+}
+
+.thesismain {
+  width: 60%;
+  padding-right: 1.5rem;
+}
+
+.thesismain video {
+  width: 80%;
+  height: auto;
+  padding-bottom: 24px;
+}
+
+.thesismain h5 {
+  font-size: 1.3rem;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  font-size: 24px;
+}
+
+.thesiscontent {
+  padding-top: 0.5rem;
+  display: inline-block;
+  width: 80%;
+}
+
+.wrapimg {
+  display: flex;
+  margin: 16px;
+}
+
+.wrapimg img {
+  max-width: 60%;
+  height: auto;
+}
+
+.contentinfo {
+  padding: 0 1rem;
+}
+
+.contentinfo p {
+  font-size: 0.9rem;
+}
+
+.contentinfo h4 {
+  display: inline;
+}
+
