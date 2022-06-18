@@ -87,7 +87,7 @@ body {
 /*section1*/
 
 
-#information {
+.information {
   display: flex;
   padding: 2rem 0 0 1.5rem;
 }
@@ -258,4 +258,7 @@ body {
 .contentinfo h4 {
   display: inline;
 }
+
+
+
 
