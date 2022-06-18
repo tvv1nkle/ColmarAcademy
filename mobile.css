@@ -27,5 +27,25 @@
   }
 }
 
+/* Mobile Nav */
+
+@media screen and (max-width: 768px) {
+
+  
+  .navbar, .navbar a, .logo, .logo h1 ,.logopic{
+      display: none
+  }
+
+  .mobile {
+    width: 100%;
+  }
+
+  
+    
+}
+
+
+
+
 
 
