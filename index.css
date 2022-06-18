@@ -84,7 +84,7 @@ body {
 }
 
 
-
+/*section1*/
 
 
 #information {
@@ -162,6 +162,9 @@ body {
   height: auto;
 }
 
+
+/*section2*/
+
 #Course h1{
   text-align: center;
   padding: 32px;
@@ -196,16 +199,16 @@ body {
 }
 
 
+/*secsion3*/
 
-
-h3 {
+.thesisexhibit h3 {
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-size: 32px;
 }
 
-#thesis {
+.thesis {
   display: flex;
   padding: 2rem 0 0 1.5rem;
 }
@@ -229,7 +232,7 @@ h3 {
 }
 
 .thesiscontent {
-  padding-top: 0.5rem;
+  padding-top: 0px;
   display: inline-block;
   width: 80%;
 }
@@ -245,7 +248,7 @@ h3 {
 }
 
 .contentinfo {
-  padding: 0 1rem;
+  padding: 0.1rem;
 }
 
 .contentinfo p {
